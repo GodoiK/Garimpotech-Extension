@@ -97,7 +97,7 @@ garimpotech/
 
 ## Instalação (modo desenvolvedor)
 
-1. Clone: `git clone https://github.com/SEU-USUARIO/garimpotech.git`
+1. Clone: `git clone https://github.com/Godoik/Garimpotech-Extension.git`
 2. Abra `chrome://extensions` e ative o **Modo do desenvolvedor**.
 3. **Carregar sem compactação** → selecione a pasta `extension/`.
 4. Abra um produto no Mercado Livre ou na Amazon e clique no ícone do GarimpoTech — ou clique em qualquer aba e digite um termo.
