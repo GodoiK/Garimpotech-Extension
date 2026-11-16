@@ -126,4 +126,4 @@ Nenhum dado sai do seu navegador. Veja [PRIVACY.md](PRIVACY.md).
 
 ## Licença
 
-[MIT](LICENSE) © Gustavo Godoi — [LinkedIn](https:/https://www.linkedin.com/in/gustavosantosgodoi/) · [GitHub](https://github.com/GodoiK)
+[MIT](LICENSE) © Gustavo Godoi — [LinkedIn](https:/https://www.linkedin.com/in/gustavosantosgodoi) · [GitHub](https://github.com/GodoiK)
