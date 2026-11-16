@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img" aria-label="GarimpoTech: letra G com etiqueta de preço">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#1d4ed8"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="url(#bg)"/>
+  <!-- G -->
+  <path d="M 81.5 36.15 A 34 34 0 1 0 96 64" fill="none" stroke="#ffffff" stroke-width="14"/>
+  <!-- barra do G = etiqueta de preço -->
+  <path fill="#fbbf24" fill-rule="evenodd" d="M 56 64 L 66 53 L 103 53 L 103 75 L 66 75 Z M 69 64 m -3.5 0 a 3.5 3.5 0 1 0 7 0 a 3.5 3.5 0 1 0 -7 0 Z"/>
+</svg>

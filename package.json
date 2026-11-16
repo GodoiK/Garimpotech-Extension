@@ -1,0 +1,13 @@
+{
+  "name": "garimpotech",
+  "version": "1.0.0",
+  "description": "Extensão Chrome (Manifest V3) que compara preços de artigos tech no Mercado Livre e na Amazon.",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "lint:syntax": "for f in extension/*.js; do node --check \"$f\" || exit 1; done",
+    "pack": "cd extension && zip -r ../garimpotech-extension.zip . -x '.*'"
+  },
+  "engines": { "node": ">=18" }
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head><meta charset="utf-8"><link rel="stylesheet" href="popup.css"></head>
+<body>
+  <header>
+    <img src="icons/icon48.png" alt="" width="28" height="28">
+    <div><b>GarimpoTech</b><div class="muted">Mercado Livre × Amazon · artigos tech</div></div>
+  </header>
+
+  <form id="f" class="bar">
+    <input id="q" type="text" placeholder="Ex.: RTX 4060 MSI, Ryzen 5 5600X, SSD NVMe 1TB, DDR4 16GB" autocomplete="off">
+    <button type="submit">Buscar</button>
+  </form>
+
+  <div class="opts">
+    <label class="switch" title="Ligada: procura o mesmo modelo de qualquer marca (RTX 4060 MSI → RTX 4060). Desligada: procura exatamente o que foi digitado.">
+      <input type="checkbox" id="generic"><span class="track"></span><span>Busca genérica</span>
+    </label>
+    <select id="cond" title="Condição">
+      <option value="todos">Novo e usado</option>
+      <option value="novo">Só novos</option>
+      <option value="usado">Só usados</option>
+    </select>
+    <button type="button" id="moreBtn" class="link">Filtros ▾</button>
+  </div>
+
+  <div id="more" class="more hidden">
+    <label><input type="checkbox" id="junk"> Ocultar defeito / peças / acessórios</label>
+    <label><input type="checkbox" id="systems"> Ocultar PCs e notebooks completos</label>
+    <div class="line"><span class="muted">Lojas:</span> <span id="sources"></span></div>
+    <div class="line"><label>Preço mín. <input type="number" id="pmin" min="0" step="10"></label>
+      <label>máx. <input type="number" id="pmax" min="0" step="10"></label></div>
+  </div>
+
+  <div id="info" class="muted"></div>
+  <div id="ctx"></div>
+  <div id="status"></div>
+  <div id="out"></div>
+
+  <script src="stores.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>
